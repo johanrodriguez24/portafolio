@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Comfortaa', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedorGeneral {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000000, #0000FF);
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center; 
+}
+
+.contenedorHeader {
+    width: 90%;
+    height: 10vh;
+    margin-top: 2rem;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 0.2rem solid rgb(25, 16, 72);
+    border-radius: 3rem;
+    
+}
+
+.listaOpciones {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+.listaOpciones li {
+    padding: 0.5rem 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre{
+    margin-right: auto; 
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nombre li{
+    list-style: none;
+    color: white;
+}
+.enlaces{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    
+}
+.listaEnlaces{
+    color: white;
+    font-weight: 700;
+}
+
+/* ------------------ Main a partir de ahora -------------------- */
+
+main{
+    width: 100%;
+    height: 80vh;
+    border: 0.1rem solid yellow;
+}
+
+
+.contenedorMain{
+    width: 100%;
+    height: 100%;
+    border: 0.1rem solid white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.tituloProfesional{
+    border: 0.1rem solid white;
+}
+
+.tituloProfesional{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloGrado{
+    color: white;
+}
+.nombrePropio{
+    color: white;
+}
